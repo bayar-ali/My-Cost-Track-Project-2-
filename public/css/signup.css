@@ -1,0 +1,231 @@
+
+.footer {
+    background-image: url("../images/footer-curve-btm.png");
+    height: 35vh;
+    background-repeat: no-repeat;
+  
+}
+
+
+input[type=text], input[type=password] {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 5px;
+   background: rgba(0, 0,0,0.10);
+   outline: none ;
+   border: none;
+   border-bottom: 1px dotted #fff;
+   border-radius: 5px;
+   margin: 5px;
+   font-weight: bold;
+
+}
+
+.wrap-up {
+    max-width: 350px;
+    border-radius: 20px;
+    margin: auto;
+    background: rgba(0, 0,0,0.8);
+    box-sizing: border-box;
+    padding: 40px;
+    color: #fff;
+    margin-top: 100px;
+
+}
+
+
+.signuptext {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+}
+
+.signupform {
+    background-image: url("../images/191204_Blog_Feature_Cost-Management-Basics.jpg");
+    background-color: #84c4e2;
+}
+
+.section2text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+
+.example_d {
+    color: #20bf6b !important;
+    text-transform: uppercase;
+    background: #ffffff;
+    padding: 20px;
+    border: 4px lightblue !important;
+    border-radius: 6px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+    }
+    .example_d:hover {
+        color: #494949 !important;
+        border-radius: 50px;
+        border-color: #494949 !important;
+        transition: all 0.3s ease 0s;
+        }
+
+/*  .btn{
+    animation:bouncy 5s infinite linear;
+    position: relative;
+    }
+    @keyframes bouncy {
+  0%{top: 0em;}
+  40%{top: 0em;}
+  43%{top: -0.9em;}
+  47%{top: 0em;}
+  49%{top: -0.4em;}
+  50%{top: 0em;}
+  100%{top: 0em;}
+    }  */
+
+
+.backgroundtext {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+.formsection {
+   background-color: rgb(34, 30, 30);
+    background-size: cover;
+    height: 135vh;
+    background-repeat: no-repeat;
+   
+}
+
+
+#backgroundimg {
+    background-image: url("../images/71MA1ul6d0L._AC_SL1500_.jpg");
+    height: 75vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.section2 {
+background-image: url();
+background-repeat: no-repeat;
+
+
+}
+
+
+#section2img {
+    height: 6em;
+    width: 6em;
+}
+
+.header {
+    background-color:lightslategray
+}
+
+#costtrackicon {
+    height: 4em;
+    width: 4em;
+}
+
+.mycosttracktext {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 2em;
+}
+
+.section1 {
+    background-color: #d6a3a3;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+html, body {
+    margin: 0;
+}
+
+.full-screen-container {
+    
+    background-image: url(); 
+    height: 150vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+ .login-container {
+    background-color: hsla(175, 54%, 35%, 0.3);
+    padding: 50px 30px;
+    min-width: 400px;
+    width: 50%;
+    max-width: 600px;
+
+} 
+
+
+.login-title {
+    color: white;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 40px;
+    font-size: 2.5em;
+    font-weight: normal;
+
+}
+
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+
+}
+
+.input-group label {
+    color: rgb(85, 33, 33);
+    font-weight: lighter;
+    font-size: 1.5em;
+    margin-bottom: 7px;
+}
+
+.input-group input {
+    font-size: 1,5em;
+    padding: .1em .25em;
+    background-color: hsla(201, 100%, 91%, 0.3);
+    border: 1px solid hsla(201, 100%, 6%); 
+    outline: none;
+    border-radius: 5px;
+    color: rgb(158, 54, 54);
+    font-weight: lighter;
+
+}
+
+.input-group input:focus {
+    border: 1px solid hsl(201, 100%, 50%);
+}
+
+.login-button {
+    padding: 10px 30px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: hsla(201, 100%, 50%, 0.1);
+    border:  1px solid hsl(201, 100%, 50%); 
+    outline: none; 
+    font-size: 1.5em;
+    color: rgb(192, 58, 58);
+    font-weight: lighter;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: hsla(201, 100%, 50%, 0.3);
+}
+
+
+.login-button:focus {
+    background-color: hsla(201, 100%, 50%, 0.5);
+}
